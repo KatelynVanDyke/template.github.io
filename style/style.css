@@ -1,0 +1,149 @@
+/* Website Template © Katelyn Van Dyke 2022 */
+
+/* Imports */
+
+/* Universal */
+
+html {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 89px;
+}
+
+h2 {
+    font-size: 67px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 37px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+h6 {
+    font-size: 21px;
+}
+
+p, button, a {
+    font-size: 16px;
+}
+
+button {
+    padding: 16px 18px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
+}
+
+button:active {
+    box-shadow: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* Content */
+
+#content {
+    margin: 10px;
+    margin-top: 60px;
+}
+
+/* Navigation */
+
+nav {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  background-color: black;
+}
+
+nav a {
+  float: right;
+  display: block;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-style: normal;
+  text-align: center;
+  color: white;
+}
+
+nav #nav-home {
+  float: left;
+}
+
+nav a:hover {
+  text-decoration: none;
+  background: white;
+  color: black;
+}
+
+#nav-mobile {
+  display: none;
+  height: 200px;
+}
+
+#nav-mobile-links a {
+  position: fixed;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100vw;
+  background-color: black;
+}
+
+#nav-mobile-links a:hover {
+  background-color: white;
+}
+
+#nav-mobile-item-1 {
+  top: 50px;
+}
+
+#nav-mobile-item-2 {
+  top: 100px;
+}
+
+#nav-mobile-item-3 {
+  top: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  #nav-desktop {
+    display: none;
+  }
+
+  #nav-mobile {
+    display: block;
+  }
+
+  #nav-mobile-close,
+  #nav-mobile-links {
+    display: none;
+  }
+}
+
+/* Footer */
+
+footer {
+  padding: 10px;
+  box-shadow: 0 50vh 0 50vh black;
+  background-color: black;
+  color: white;
+}
